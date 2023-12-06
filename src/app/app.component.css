@@ -1,0 +1,23 @@
+/* CSS styles for the form elements */
+/* ... (existing styles for labels, inputs, error messages, etc.) */
+
+/* Submit button */
+button[type='submit'] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styling for disabled submit button */
+  button[type='submit']:disabled {
+    opacity: 0.6; /* Decrease opacity to indicate it's disabled */
+    cursor: not-allowed; /* Change cursor to indicate not clickable */
+    /* Additional styles when button is disabled */
+    /* For example, you can change background color or add a different text color */
+    background-color: #ccc; /* Change the color to a lighter shade to indicate disabled */
+    color: #999; /* Adjust text color for disabled button */
+  }
+  
