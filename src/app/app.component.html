@@ -26,7 +26,7 @@
   <textarea name="description" ngModel minlength="10" required></textarea><br>
   <div *ngIf="m.controls['description'].errors">
     <div *ngIf="m.controls['description'].errors['required']">is required</div>
-    <div *ngIf="m.controls['description'].errors['minlength']">is not 10</div>
+    <div *ngIf="m.controls['description'].errors['minlength']">Project description must be at least 10 characters long.</div>
   </div> 
  
   <button [disabled]="m.invalid" type="submit">Submit</button> 
